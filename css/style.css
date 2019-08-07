@@ -1,0 +1,78 @@
+.bg{
+    align-content: center;
+    background-image: url("https://scontent.fmnl4-3.fna.fbcdn.net/v/t1.0-9/12376282_935944763108235_7370302684653337988_n.jpg?_nc_cat=110&_nc_eui2=AeHIc_UWiHQb4Ih9jCbQBntt0YukeFhLw5dqFQPpSmk52CDhFJtiCxMX7A_SkGx4XPOdN5RN0bd2Ij0SOX-sxmwHwSkZeBoH_u5kvME79-icew&_nc_oc=AQnp_SkGvLTCbELsRZPKJEfpKzEV2eMBHXcqJBwtRrlV9tNPPv6uPV_o1FD0jCu0C3w&_nc_ht=scontent.fmnl4-3.fna&oh=e4010c8edd62b14c2c8ebd2bac0b201b&oe=5DD8D989");
+    width: 870px;
+    height: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 870px;
+}
+#header{
+    text-align: center;
+    font-size: 5em;
+    font-family: cursive;
+}
+#menu{
+    list-style: none;
+    padding: 10px;
+    display: flex;
+}
+#menu li{
+    padding: 10px;
+}
+#menu li:hover{
+    background:lightblue;
+}
+
+
+
+.container {
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+
+
+.menu1{
+    display: flex;
+    justify-content: space-between;
+}
+
+#facility{
+    margin-left: 50px;
+    background-image: url("https://scontent.fmnl4-5.fna.fbcdn.net/v/t31.0-8/965186_10200125221558662_1270665115_o.jpg?_nc_cat=106&_nc_eui2=AeEabcB3O893jKVmv1atZpBg8mbcDUE-ZL_uvWw8vRYLrTPTmeDisNl0lUCNQHzlcVprUZS5-LfuwuTpLirqN8t7X1cfRSIk1K47cwDIM_auCg&_nc_oc=AQmjTHcC3CIIoGaxlhU89tvrQS-Xl2wRASLylxrObDzeS8hW1heg2URQX3X25eWZ54I&_nc_ht=scontent.fmnl4-5.fna&oh=38a525ea0c95698b224eb6674c92ba45&oe=5DDD233C");
+    width: 1300px;
+    height: 980px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#foot{
+    text-align: center;
+    background: lightskyblue;
+    opacity: 0.6px;
+    height: 50px;;
+}
